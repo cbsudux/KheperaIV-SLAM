@@ -18,7 +18,7 @@ This code allows you to simulate and manually control the KheperaIVs in ARGoS an
    l - Rotate right
    k - rotate in place ( Anticlockwise )
 8. The odometry and LIDAR will be collected in slamData.dat.
-9. Copy slamData.dat to the BreezySLAM/examples and run ./log2pgm slamData.dat 1 ( Usage : ./log2pgm <dataset> <use_odometry> <random_seed> )
+9. Copy slamData.dat to the BreezySLAM/examples and run "./log2pgm slamData.dat 1" for the best map  ( Usage : ./log2pgm <dataset> <use_odometry> <random_seed> )
 10. A map will be created in the examples folder. 
 
 
