@@ -1,5 +1,5 @@
 # KheperaIV-SLAM
-This repository contains some code I wrote to implement [BreezySLAM](https://github.com/simondlevy/BreezySLAM) on the [KheperaIV](https://www.k-team.com/khepera-iv) robots in [ARGoS](http://www.argos-sim.info/).(A multi-physics robot simulator)
+Code I wrote to implement [BreezySLAM](https://github.com/simondlevy/BreezySLAM) on the [KheperaIV](https://www.k-team.com/khepera-iv) robots in [ARGoS](http://www.argos-sim.info/).(A multi-physics robot simulator)
 
 This code allows you to simulate and manually control the KheperaIVs in ARGoS and generate LIDAR and Oodmetry readings as a .dat file. To get a map, you should call log2pgm ( In BreezySLAM ) along with the .dat file.
 (This is currently an offline version of BreezySLAM, I will soon create a repo for the online version where the map is created in ARGoS itself)
