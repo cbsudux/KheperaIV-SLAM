@@ -25,10 +25,12 @@ Creating a map only with Odometry is found to produce better results.
 - Run the controller with 
 `DRI_PRIME=1 argos3 -c experiments/offline_slam.argos`
 and the ARGoS simulator will start with a simulated KheperaIV in an arena. 
-- To select the robot, hold SHIFT and left click on it. Move the Khepera with i,j,k,l --> i - Move forward && j - Rotate left && l - Rotate right && k - rotate in place ( Anticlockwise )
+- To select the robot, hold SHIFT and left click on it. Move the Khepera with i,j,k,l 
+  - i - Move forward
+  - j - Rotate left
+  - l - Rotate right 
+  - k - Rotate in place ( Anticlockwise )
 - The odometry and LIDAR will be collected in slamData.dat.
 - Copy slamData.dat to the BreezySLAM/examples and run 
-`./log2pgm slamData.dat 1`
-for the best map  ( Usage : ./log2pgm <dataset> <use_odometry> <random_seed> )
-- A map ( slamData.pgm ) will be created in the examples folder. 
+`./log2pgm slamData.dat 1`(`./log2pgm <dataset> <use_odometry> <random_seed>`) to generate a map (slamData.pgm) in the examples folder
 
